@@ -1,0 +1,40 @@
+html, body {
+    background: linear-gradient(135deg, rgb(33, 100, 177), rgb(56, 168, 56));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.mainContainerIndex {
+    background-color: rgb(255, 232, 103);
+    height: 50%;
+    max-height: 500px;
+    width: 70%;
+    max-width: 700px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    box-shadow: 20px 20px 20px black;
+    gap: 5%;
+}
+.mainContainerIndex h1 {
+    padding: 0 10% 0 10%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 10px 10px 10px gray;
+}
+.mainContainerIndex h2 {
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(97, 16, 16);
+}
